@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    background-color: rgba(38, 85, 46, 0.712);
+    position: relative;
+    color: rgba(255, 228, 196, 0.678);
+}
+
+header p {
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+
+figure {
+    margin-bottom: 200px;
+}
+
+.main-image {
+    background-image: url(./images/cutting-board.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    margin-top: -280px;
+    padding: 200px;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0.9;
+}
+
+.navbar {
+    padding: 0 260px;
+}
+
+.search-bar {
+    height: 50px;
+
+}
+
+.search-bar input  {
+    font-size: 23px;
+}
+
+section {
+    background-color: rgba(255, 228, 196, 0.486);
+}
+
+.results {
+    border: 2px solid black;
+    float: right;
+}
+
+#results {
+    padding-bottom: 330px;
+    display: none;
+}
+
+#information img {
+    max-width: 100%;
+    height: 325px;
+    border: 1px solid rgba(38, 85, 46, 0.781);
+}
+
+#information {
+    font-family: 'Kanit', sans-serif;
+}
+
+.card-body {
+    border: 1px solid rgba(38, 85, 46, 0.781);
+}
+
+.card {
+    border: 3px solid rgba(38, 85, 46, 0.781);
+}
+
+footer {
+    background-color: rgba(38, 85, 46, 0.712);
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 25px;
+}
